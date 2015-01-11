@@ -10,6 +10,7 @@ The puzzles are of the form:
 3 | 4 | 6
 ----------
 7 | X | 8
+-----------
 
 where X is the empty block. The goal is to slide all of the pieces around to get it to the ordering:
 
@@ -18,7 +19,7 @@ where X is the empty block. The goal is to slide all of the pieces around to get
 4 | X | 5
 ----------
 6 | 7 | 8
-
+----------
 My solution, using the A* algorithm, finds the shortest path that can be taken by any given occurance of the puzzle to
 the goal state.
 
